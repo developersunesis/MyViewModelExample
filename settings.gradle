@@ -1,0 +1,2 @@
+rootProject.name='MyViewModel Example'
+include ':app'
