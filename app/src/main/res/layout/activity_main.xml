@@ -9,10 +9,26 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/_0"
+        android:textSize="40sp"
+        android:id="@+id/counter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        app:layout_constraintTop_toBottomOf="@id/counter"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/increase_count"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFFF"
+        android:padding="10dp"
+        android:id="@+id/increaseCount"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
